@@ -52,7 +52,7 @@ function author_report_header()
 <img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/title-banner-free.png" />
 <div style="margin-top:20px;">
 
-<a href="admin.php?page=wp-author-report/wp-author-report-upgrade.php"><img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/header-banner-free-with-price.png" /></a>
+<a href="admin.php?page=wp-author-report-free/wp-author-report-upgrade.php"><img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/header-banner-free-with-price.png" /></a>
 </div>
 <?php
 }#end author_report_header()
