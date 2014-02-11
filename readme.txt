@@ -18,6 +18,7 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 
 
 **Features:**
+
 *  Generate report day by day report.
 *  Pre-selected report shows today, last seven days, month to date or any specific dates.
 *  Option to print report.
@@ -25,16 +26,18 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 *  Option to select "Week Start Day"
 *  Could show detail report for a specific author, including post view(required to have "wp-post view" plugin installed)
 
+
 **Always free for single Author's Report**
+
 
 **Premium Version:**
 
 *  **Personal Version:** Report for 3 Authors with all premium Features and allowed only for single domain
 *  **Business Version:** Report for unlimited Authors with all premium features and allowed for single domain
-*  **Business Plus Version:** Report for unlimited Authors with all premium features and allowed for 5 domain
-*  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domain
+*  **Business Plus Version:** Report for unlimited Authors with all premium features and allowed for 5 domains
+*  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domains
 
-**[Get Premium](http://wpdeveloper.net/plugin/wp-author-report/#tab7)
+**[Get Premium](http://wpdeveloper.net/plugin/wp-author-report/#tab7)**
 
 
 == Installation ==
