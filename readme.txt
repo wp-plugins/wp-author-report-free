@@ -14,17 +14,27 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Do you manage a WordPress site with multiple author? Or you want to get detail report of article published on your WordPress blog? Here we have a perfect solution for this. [WP Author Report](http://wpdeveloper.net/plugin/wp-author-report/) is the only productivity tool for WordPress which will generate detail report how authors are working.
 
-This plugin will prepare report about how authors are doing day by day basis. You could generate report for any specific time. Free version is limited for only one user, so it could generate report only for one user. Premium version is available at affordable costs and upgradeable directly from the free plugin control panel. All your setting will be intact. And this is the 4th plugin from [WPDeveloper.net](http://wpdeveloper.net/) project. So all premium version is also auto upgrade supported like free plugin from WordPress Extended.
+This plugin will prepare report about how authors are doing day by day basis. You could generate report for any specific time. Free version is limited for only one user. Premium version is available at affordable costs and upgradeable directly from the free plugin control panel. All your setting will be intact. And this is the 4th plugin from [WPDeveloper.net](http://wpdeveloper.net/) project. So all premium version is also auto upgrade supported like free plugin from WordPress Extended.
 
 
 **Features:**
-
 *  Generate report day by day report.
 *  Pre-selected report shows today, last seven days, month to date or any specific dates.
 *  Option to print report.
 *  Could generate any specific author's report.
 *  Option to select "Week Start Day"
 *  Could show detail report for a specific author, including post view(required to have "wp-post view" plugin installed)
+
+**Always free for single Author's Report**
+
+**Premium Version:**
+
+*  **Personal Version:** Report for 3 Authors with all premium Features and allowed only for single domain
+*  **Business Version:** Report for unlimited Authors with all premium features and allowed for single domain
+*  **Business Plus Version:** Report for unlimited Authors with all premium features and allowed for 5 domain
+*  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domain
+
+**[Get Premium](http://wpdeveloper.net/plugin/wp-author-report/#tab7)
 
 
 == Installation ==
@@ -92,4 +102,4 @@ For free version you could get support from WordPress.org support section, you c
 
 == Donation ==
 
-This plugin is free base premium. So if you liked the free version consider upgrading to premium version from - http://wpdeveloper.net/plugin/wp-author-report
+This plugin is free base premium. So if you liked the free version consider upgrading to premium version from - http://wpdeveloper.net/plugin/wp-author-report/
