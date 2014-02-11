@@ -17,13 +17,14 @@ Do you manage a WordPress site with multiple author? Or you want to get detail r
 This plugin will prepare report about how authors are doing day by day basis. You could generate report for any specific time. Free version is limited for only one user, so it could generate report only for one user. Premium version is available at affordable costs and upgradeable directly from the free plugin control panel. All your setting will be intact. And this is the 4th plugin from [WPDeveloper.net](http://wpdeveloper.net/) project. So all premium version is also auto upgrade supported like free plugin from WordPress Extended.
 
 
-Features:
-1. Generate report day by day report.
-2. Pre-selected report shows today, last seven days, month to date or any specific dates.
-3. Option to print report.
-4. Could generate any specific author's report.
-5. Option to select "Week Start Day"
-6. Could show detail report for a specific author, including post view(required to have "wp-post view" plugin installed)
+**Features:**
+
+*  Generate report day by day report.
+*  Pre-selected report shows today, last seven days, month to date or any specific dates.
+*  Option to print report.
+*  Could generate any specific author's report.
+*  Option to select "Week Start Day"
+*  Could show detail report for a specific author, including post view(required to have "wp-post view" plugin installed)
 
 
 == Installation ==
