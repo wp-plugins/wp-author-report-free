@@ -74,9 +74,13 @@ For free version you could get support from WordPress.org support section, you c
 
 == Changelog ==
 
+= 1.0.3 =
+*  jQuery and jQuery UI using wp_enque_script
+*  Removal of upgrade class
+
 = 1.0 =
-1. Initial release.
-2. Comes with four premium version
+*  Initial release.
+*  Comes with four premium version
 
 
 
