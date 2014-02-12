@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Do you manage a WordPress site with multiple author? Or you want to get detail report of article published on your WordPress blog? Here we have a perfect solution for this. [WP Author Report](http://wpdeveloper.net/plugin/wp-author-report/) is the only productivity tool for WordPress which will generate detail report how authors are working.
+Do you manage a WordPress site with multiple author? Or you want to get detail report of article published on your WordPress blog? Here we have a perfect solution for this. [WP Author Report](http://wpdeveloper.net/plugin/wp-author-report/) is the only productivity tool for WordPress which will generate detail report how authors are working, how many posts they are making, per day, per week, per month or any duration you want to see. You could also see how those posts are getting response in terms of views count.
 
 This plugin will prepare report about how authors are doing day by day basis. You could generate report for any specific time. Free version is limited for only one user. Premium version is available at affordable costs and upgradeable directly from the free plugin control panel. All your setting will be intact. And this is the 4th plugin from [WPDeveloper.net](http://wpdeveloper.net/) project. So all premium version is also auto upgrade supported like free plugin from WordPress Extended.
 
@@ -20,11 +20,12 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 **Features:**
 
 *  Generate report day by day report.
-*  Pre-selected report shows today, last seven days, month to date or any specific dates.
+*  Pre-selected report shows today, last seven days, month to date, last month or any specific dates.
 *  Option to print report.
 *  Could generate any specific author's report.
-*  Option to select "Week Start Day"
+*  Option to select "Weekly Holyday".
 *  Could show detail report for a specific author, including post view(required to have "wp-post view" plugin installed)
+*  Link to view & edit any post of that particilar author on that specific time.
 
 
 **Always free for single Author's Report**
@@ -37,7 +38,7 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 *  **Business Plus Version:** Report for unlimited Authors with all premium features and allowed for 5 domains
 *  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domains
 
-**[Get Premium](http://wpdeveloper.net/plugin/wp-author-report/#tab7)**
+**Get Premium Version** -[here](http://wpdeveloper.net/plugin/wp-author-report/#tab7) 
 
 
 == Installation ==
@@ -54,7 +55,7 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 
 = Settings =
 1. Select which author you want to prepare report.(free version supports one author)
-2. Select week start day.
+2. Select your weekly holyday.
 3. Go to "Author Report" page to see report and more option are available from that page.
 4. For upgrade to premium version heads to "Author Report -> Upgrade"
 
@@ -65,13 +66,17 @@ You are good to go!
 
 == Frequently Asked Questions ==
 
-= How many author does free version supports =
+= How many authors does free version supports =
 
 Free version supports one user, you could buy very affordable premium version for more author report. This free version is meant for normal personal blogger, if your blog has more author you should consider buy premium version, we have 4 premium package.
 
+= How to upgrade to premium version =
+1. Click "Buy Premium" from anywhere of the plugin or visit - [here](http://wpdeveloper.net/plugin/wp-author-report/#tab7) 
+2. Download Premium/Basic Version, input your license.
+
 = How can I get Support? =
 
-For free version you could get support from WordPress.org support section, you could always heads to wpdeveloper.net/support if you have any question about premium version.
+For free version you could get support from WordPress.org support section, you could always heads to [wpdeveloper.net/support](http://wpdeveloper.net/support) if you have any question about premium version.
 
 
 
@@ -85,13 +90,21 @@ For free version you could get support from WordPress.org support section, you c
 5. Example Full Page Report
 
 
+
+
 == Changelog ==
 
 = 1.0.3 =
 *  jQuery and jQuery UI using wp_enque_script
 *  Removal of upgrade class
 
-= 1.0 =
+= 1.0.2 =
+*  Internal release.
+
+= 1.0.1 =
+*  Internal release.
+
+= 1.0.0 =
 *  Initial release.
 *  Comes with four premium version
 
@@ -99,10 +112,10 @@ For free version you could get support from WordPress.org support section, you c
 
 == Upgrade Notice ==
 
-= 1.0 =
-1. Click "Buy Premium" from anywhere of the plugin.
-2. Download Premium/Basic Version, input your license.
+= 1.0.3 =
+*  Click "Buy Premium" from anywhere of the plugin.
+*  Download Premium/Basic Version, input your license.
 
 == Donation ==
 
-This plugin is free base premium. So if you liked the free version consider upgrading to premium version from - http://wpdeveloper.net/plugin/wp-author-report/
+This plugin is free base premium. So if you liked the free version consider upgrading to the premium version from - [http://wpdeveloper.net/plugin/wp-author-report/](http://wpdeveloper.net/plugin/wp-author-report/#tab7) 
