@@ -36,9 +36,9 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 *  **Personal Version:** Report for 3 Authors with all premium Features and allowed only for single domain
 *  **Business Version:** Report for unlimited Authors with all premium features and allowed for single domain
 *  **Business Plus Version:** Report for unlimited Authors with all premium features and allowed for 5 domains
-*  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domains
+*  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domains.
 
-**Get Premium Version** -[here](http://wpdeveloper.net/plugin/wp-author-report/#tab7) 
+**Get Premium Version** - [here](http://wpdeveloper.net/plugin/wp-author-report/#tab7).
 
 
 == Installation ==
@@ -115,6 +115,7 @@ For free version you could get support from WordPress.org support section, you c
 = 1.0.3 =
 *  Click "Buy Premium" from anywhere of the plugin.
 *  Download Premium/Basic Version, input your license.
+
 
 == Donation ==
 
