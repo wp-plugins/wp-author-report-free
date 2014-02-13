@@ -1104,7 +1104,7 @@ function autrp_setting_links($links, $file) {
         $autrp_setting = plugin_basename(__FILE__);
     }
     if ($file == $autrp_setting) {
-        $autrp_settings_link = '<a href="admin.php?page=wp-author-report/wp-author-report-options.php">Settings</a>';
+        $autrp_settings_link = '<a href="admin.php?page=wp-author-report-free/wp-author-report-options.php">Settings</a>';
         array_unshift($links, $autrp_settings_link);
     }
     return $links;
