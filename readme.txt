@@ -1,10 +1,10 @@
 === WP Author Report Free ===
 Contributors: Asif2BD, onetarek
-Donate link: http://wpdeveloper.net/
+Donate link: http://wpdeveloper.net/plugin/wp-author-report/#tab7
 Tags: author report, author stat, productivity, wordpress stat, wordpress report, author, report, stats, increase productivity, blogging, multi-author
 Requires at least: 2.5
 Tested up to: 3.8.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Do you manage a WordPress site with multiple author? Or you want to get detail report of article published on your WordPress blog? Here we have a perfect solution for this. [WP Author Report](http://wpdeveloper.net/plugin/wp-author-report/) is the only productivity tool for WordPress which will generate detail report how authors are working, how many posts they are making, per day, per week, per month or any duration you want to see. You could also see how those posts are getting response in terms of views count.
-
-This plugin will prepare report about how authors are doing day by day basis. You could generate report for any specific time. Free version is limited for only one user. Premium version is available at affordable costs and upgradeable directly from the free plugin control panel. All your setting will be intact. And this is the 4th plugin from [WPDeveloper.net](http://wpdeveloper.net/) project. So all premium version is also auto upgrade supported like free plugin from WordPress Extended.
+**Do you manage a WordPress site with multiple author?** Or do you need detail report of article published on your WordPress blog? Here we have a perfect solution for this. [WP Author Report](http://wpdeveloper.net/plugin/wp-author-report/) is the only productivity tool for WordPress which will generate detail report how authors are working, how many posts they are making, per day, per week, per month or any duration you want to see. You could also see how those posts are getting response in terms of views count.
 
 
 **Features:**
@@ -28,12 +26,14 @@ This plugin will prepare report about how authors are doing day by day basis. Yo
 *  Link to view & edit any post of that particilar author on that specific time.
 
 
-**Always free for single Author's Report**
 
+This plugin will prepare report about how authors are doing day by day basis. You could generate report for any specific time. Free version is limited for only one user. Premium version is available at affordable costs and upgradeable directly from the free plugin control panel. All your setting will be intact. And this is the 4th plugin from [WPDeveloper.net](http://wpdeveloper.net/) project. So all premium version is also auto upgrade supported like free plugin from WordPress Extended.
+
+**Always free for single Author's Report.**
 
 **Premium Version:**
 
-*  **Personal Version:** Report for 3 Authors with all premium Features and allowed only for single domain
+*  **Personal Version:** Report for 3 Authors with all premium features and allowed only for single domain
 *  **Business Version:** Report for unlimited Authors with all premium features and allowed for single domain
 *  **Business Plus Version:** Report for unlimited Authors with all premium features and allowed for 5 domains
 *  **Enterprise Version:** Report for unlimited Authors with all premium features and allowed for 25 domains.
@@ -68,7 +68,7 @@ You are good to go!
 
 = How many authors does free version supports =
 
-Free version supports one user, you could buy very affordable premium version for more author report. This free version is meant for normal personal blogger, if your blog has more author you should consider buy premium version, we have 4 premium package.
+Free version supports one "Author", you could buy very affordable premium version for more authors' report. This free version is meant for normal personal blogger, if your site has more author you should consider buy premium version, we have four premium package.
 
 = How to upgrade to premium version =
 1. Click "Buy Premium" from anywhere of the plugin or visit - [here](http://wpdeveloper.net/plugin/wp-author-report/#tab7) 
@@ -94,6 +94,10 @@ For free version you could get support from WordPress.org support section, you c
 
 == Changelog ==
 
+= 1.0.4 =
+*  Minor code cleanup
+*  Minor bug fix.
+
 = 1.0.3 =
 *  jQuery and jQuery UI using wp_enque_script
 *  Removal of upgrade class
@@ -112,7 +116,7 @@ For free version you could get support from WordPress.org support section, you c
 
 == Upgrade Notice ==
 
-= 1.0.3 =
+= 1.0.4 =
 *  Click "Buy Premium" from anywhere of the plugin.
 *  Download Premium/Basic Version, input your license.
 

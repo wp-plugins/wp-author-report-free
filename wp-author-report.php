@@ -3,7 +3,7 @@
 Plugin Name: WP Author Report Free
 Plugin URI: http://wpdeveloper.net/plugin/wp-author-report/
 Description: "WP-Author-Report" is the only productivity plugin for WordPress which will generate detail report how authors are working.
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License (GPL)
 Author: WPDeveloper.net
 Author URI: http://wpdeveloper.net/
@@ -14,7 +14,7 @@ Max WP Version: 3.8.1
 */
 
 
-define("WPAR_PLUGIN_VERSION","1.0.3");
+define("WPAR_PLUGIN_VERSION","1.0.4");
 define("WPAR_PLUGIN_SLUG",plugin_basename( __FILE__ ));
 define("WPAR_PLUGIN_URL",plugins_url("",__FILE__ ));#without trailing slash (/)
 define("WPAR_PLUGIN_PATH",plugin_dir_path(__FILE__)); #with trailing slash (/)
@@ -50,7 +50,7 @@ add_action( 'admin_enqueue_scripts', 'author_report_admin_enqueue_scripts' );
 function author_report_header()
 {?>
 
-<img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/title-banner-free.png" align="top" /> By <a class='button-primary' href="http://wpdeveloper.net" target="_blank">WPDeveloper</a>  <a class='button-primary' href="http://wpdeveloper.net/plugin/wp-author-report/" target="_blank">Visit Plugin Site</a>  <a  class='button-primary' style="color:#FFF600;" href="http://wordpress.org/support/view/plugin-reviews/wp-author-report-free" target="_blank">Rate This Plugin</a>
+<img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/title-banner-free.png" align="top" /> By <a class='button-primary' href="http://wpdeveloper.net" target="_blank">WPDeveloper.net</a>  <a class='button-primary' href="http://wpdeveloper.net/plugin/wp-author-report/" target="_blank">Plugin Homepage</a>  <a  class='button-primary' style="color:#FFF600;" href="http://wordpress.org/support/view/plugin-reviews/wp-author-report-free" target="_blank">Rate This Plugin</a>
 <div style="margin-top:20px;">
 
 <a href="admin.php?page=wp-author-report-free/wp-author-report-upgrade.php"><img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/header-banner-free-with-price.png" /></a>
