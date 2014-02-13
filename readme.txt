@@ -17,7 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Features:**
 
-*  Generate report day by day report.
+*  Generate day by day report.
 *  Pre-selected report shows today, last seven days, month to date, last month or any specific dates.
 *  Option to print report.
 *  Could generate any specific author's report.
