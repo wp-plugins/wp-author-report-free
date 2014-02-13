@@ -49,7 +49,8 @@ add_action( 'admin_enqueue_scripts', 'author_report_admin_enqueue_scripts' );
 
 function author_report_header()
 {?>
-<img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/title-banner-free.png" />
+
+<img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/title-banner-free.png" align="top" /> By <a class='button-primary' href="http://wpdeveloper.net" target="_blank">WPDeveloper</a>  <a class='button-primary' href="http://wpdeveloper.net/plugin/wp-author-report/" target="_blank">Visit Plugin Site</a>  <a  class='button-primary' style="color:#FFF600;" href="http://wordpress.org/support/view/plugin-reviews/wp-author-report-free" target="_blank">Rate This Plugin</a>
 <div style="margin-top:20px;">
 
 <a href="admin.php?page=wp-author-report-free/wp-author-report-upgrade.php"><img src="<?php echo WPAR_PLUGIN_URL ?>/css/images/header-banner-free-with-price.png" /></a>
