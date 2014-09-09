@@ -3,7 +3,7 @@ Contributors: Asif2BD, onetarek
 Donate link: http://wpdeveloper.net/plugin/wp-author-report/#tab7
 Tags: author report, author stat, productivity, wordpress stat, wordpress report, author, report, stats, increase productivity, blogging, multi-author
 Requires at least: 2.5
-Tested up to: 3.8.1
+Tested up to: 4.0
 Stable tag: 1.0.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
