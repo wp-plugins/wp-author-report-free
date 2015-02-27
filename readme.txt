@@ -1,10 +1,10 @@
 === WP Author Report Free ===
 Contributors: Asif2BD, onetarek
 Donate link: http://wpdeveloper.net/plugin/wp-author-report/#tab7
-Tags: author report, author stat, productivity, wordpress stat, wordpress report, author, report, stats, increase productivity, blogging, multi-author
+Tags: author report, author stat, productivity, writer stat, author management, wordpress stat, wordpress report, author, report, stats, increase productivity, blogging, multi-author
 Requires at least: 2.5
-Tested up to: 4.0
-Stable tag: 1.0.4
+Tested up to: 4.2
+Stable tag: 1.0.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Features:**
 
-*  Generate day by day report.
+*  Generate report day by day report.
 *  Pre-selected report shows today, last seven days, month to date, last month or any specific dates.
 *  Option to print report.
 *  Could generate any specific author's report.
@@ -94,6 +94,10 @@ For free version you could get support from WordPress.org support section, you c
 
 == Changelog ==
 
+= 1.0.5 - 2015-02-28 =
+*  Bug fix
+*  Compatible with WP 4.2 now.
+
 = 1.0.4 =
 *  Minor code cleanup
 *  Minor bug fix.
@@ -116,9 +120,8 @@ For free version you could get support from WordPress.org support section, you c
 
 == Upgrade Notice ==
 
-= 1.0.4 =
-*  Click "Buy Premium" from anywhere of the plugin.
-*  Download Premium/Basic Version, input your license.
+= 1.0.5 =
+*  Minor big fix and compatible with latest WordPress 4.2
 
 
 == Donation ==

@@ -3,13 +3,13 @@
 Plugin Name: WP Author Report Free
 Plugin URI: http://wpdeveloper.net/plugin/wp-author-report/
 Description: "WP-Author-Report" is the only productivity plugin for WordPress which will generate detail report how authors are working.
-Version: 1.0.4
+Version: 1.0.5
 License: GNU General Public License (GPL)
 Author: WPDeveloper.net
 Author URI: http://wpdeveloper.net/
 Contributors: Asif2BD, oneTarek
 Min WP Version: 2.5.0
-Max WP Version: 3.8.1
+Max WP Version: 4.2
 
 */
 
@@ -1104,7 +1104,7 @@ function autrp_setting_links($links, $file) {
         $autrp_setting = plugin_basename(__FILE__);
     }
     if ($file == $autrp_setting) {
-        $autrp_settings_link = '<a href="admin.php?page=wp-author-report-free/wp-author-report-options.php">Settings</a>';
+        $autrp_settings_link = '<a href="admin.php?page=wp-author-report/wp-author-report-options.php">Settings</a>';
         array_unshift($links, $autrp_settings_link);
     }
     return $links;
