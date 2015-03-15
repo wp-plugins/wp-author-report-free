@@ -3,7 +3,7 @@
 Plugin Name: WP Author Report Free
 Plugin URI: http://wpdeveloper.net/plugin/wp-author-report/
 Description: "WP-Author-Report" is the only productivity plugin for WordPress which will generate detail report how authors are working.
-Version: 1.0.5
+Version: 1.0.6
 License: GNU General Public License (GPL)
 Author: WPDeveloper.net
 Author URI: http://wpdeveloper.net/
@@ -14,7 +14,7 @@ Max WP Version: 4.2
 */
 
 
-define("WPAR_PLUGIN_VERSION","1.0.4");
+define("WPAR_PLUGIN_VERSION","1.0.6");
 define("WPAR_PLUGIN_SLUG",plugin_basename( __FILE__ ));
 define("WPAR_PLUGIN_URL",plugins_url("",__FILE__ ));#without trailing slash (/)
 define("WPAR_PLUGIN_PATH",plugin_dir_path(__FILE__)); #with trailing slash (/)
@@ -67,8 +67,8 @@ global $wpdb;
 $holyday=get_option('holyday'); if(!$holyday)$holyday="Sun";
 
 $included_stat_user = get_option('included_stat_user');
-
 if (!is_array($included_stat_user)){$included_stat_user=reset_stat_options();} elseif(!count($included_stat_user)){$included_stat_user=reset_stat_options();}
+if(count($included_stat_user)>2){$tincluded_stat_user=$included_stat_user; unset($included_stat_user); $included_stat_user=array(); for($i=0; $i<=1; $i++){$included_stat_user[]=$tincluded_stat_user[$i];} update_option('included_stat_user',$included_stat_user);}
 
 	if(isset($_GET['aid']) && $_GET['aid']!="") {$aid=$_GET['aid']; $aname=$_GET['aname'];} else {$aid=1; $aname="Admin";}
 
@@ -140,7 +140,6 @@ if (!is_array($included_stat_user)){$included_stat_user=reset_stat_options();} e
 			break;
 
 			}
-
 		case "specific date range":
 
 			{
@@ -199,15 +198,15 @@ if (!is_array($included_stat_user)){$included_stat_user=reset_stat_options();} e
 
 echo "<div style=\"width: 100%; min-width:1010px; padding-left: 10px;\" class=\"wrap\">";
 	echo "<div style=\"width: 800px; float:left;\">";
-    author_report_header();
+	author_report_header();
 	
 	$myrows = get_authorlist();
 
-	#$total_author_with_non_included=count($myrows);
+	
 
 	echo "<table class=\"widefat\">";
 
-	echo "<thead><tr><th>Nick Name</th><th>Login</th><th>Level</th><th>eMail</th></tr></thead>";
+	echo "<thead><tr><th>User Id</th><th>Nick Name</th><th>Login</th><th>Level</th><th>eMail</th></tr></thead>";
 
 	$userlist=array();
 
@@ -225,7 +224,7 @@ echo "<div style=\"width: 100%; min-width:1010px; padding-left: 10px;\" class=\"
 
 			echo "<tr "; if($myuser->level<2)echo " style=\"color:#CCCCCC;\""; echo ">";
 
-			//echo "<td>".$myuser->ID."</td>";
+			echo "<td>".$myuser->ID."</td>";
 
 			echo "<td>".$myuser->user_nicename."</td>";
 
@@ -238,7 +237,7 @@ echo "<div style=\"width: 100%; min-width:1010px; padding-left: 10px;\" class=\"
 			$userlist[$myuser->ID]=ucfirst($myuser->user_nicename);
 
 			echo "</tr>";
-			break;
+
 		}
 
 
@@ -259,7 +258,7 @@ echo "<div style=\"width: 100%; min-width:1010px; padding-left: 10px;\" class=\"
 
 		<input type="hidden" name="page" value="<?php echo WPAR_PLUGIN_SLUG ?>" />
 
-		<select name="aid" disabled="disabled" readonly="readonly">
+		<select name="aid">
 
 		<?php foreach($userlist as $uid=>$uname){echo "<option value=\"".$uid."\""; if($uid==$aid){ echo " selected=\"selected\"";$aname=$uname;} echo ">".$uname."</option>\n";} ?>
 
@@ -267,9 +266,9 @@ echo "<div style=\"width: 100%; min-width:1010px; padding-left: 10px;\" class=\"
 
 		<input type="hidden" name="aname" value="<?php echo $aname;?>" />
 
-		<input type="radio" name="actionto" disabled="disabled" readonly="readonly" value="single" <?php echo($actionto=="single")?"checked=\"checked\"":"";?> /> Show Selected Author 
+		<input type="radio" name="actionto" value="single" <?php echo($actionto=="single")?"checked=\"checked\"":"";?> /> Show Selected Author 
 
-		<input type="radio" name="actionto" value="all"  disabled="disabled" readonly="readonly"/> Show All Author
+		<input type="radio" name="actionto" value="all"  <?php echo($actionto=="all")?"checked=\"checked\"":"";?>/> Show All Author
 
 		&nbsp;|&nbsp;
 
@@ -404,7 +403,7 @@ From : <input class="datefield" id="fromdate" name="fromdate" readonly="readonly
 	</td></tr></table>
 
 	<?php 
-
+	
 	echo "<h3>";if($actionto=="single"){ echo "Report For <span style=\"color:#CC6600\">".$aname."</span> "; }else{ echo "Report of <span style=\"color:#CC6600\">All Authors</span>";} echo "&nbsp; &nbsp; From <span style=\"color:#CC6600\">$sdate</span> to <span style=\"color:#CC6600\">$mainedate</span></h3>";
 
 	//$myrows = $wpdb->get_results( "SELECT * FROM wp_posts  where post_author='$aid' and post_status='publish'" );
@@ -480,7 +479,7 @@ From : <input class="datefield" id="fromdate" name="fromdate" readonly="readonly
 		<?php 
 
 		switch($report_style)
-
+	
 		{
 
 			case "daily":
@@ -874,7 +873,7 @@ From : <input class="datefield" id="fromdate" name="fromdate" readonly="readonly
 
 
 
-		}#end of switch($report_style)
+		}#end of switch($report_style)		
 
 	}#end of if($show=="report")
 
@@ -1132,7 +1131,34 @@ if(!function_exists('wpdev_get_current_host'))
 
 include_once('wpdev-dashboard-widget.php');
 require_once("wp-author-report-upgrade.php");
-#-----------------------------------------------END SOME COMMON FUNCTION FOR ALL PLUGINS BY WPDEVELOPER.NET--------------------------------------------------
-#Updated on 09 Feb 2014
+#---END SOME COMMON FUNCTION FOR ALL PLUGINS BY WPDEVELOPER.NET-----------
 
+/* Display a notice that can be dismissed */
+
+add_action('admin_notices', 'wpar_admin_notice');
+
+function wpar_admin_notice() {
+if ( current_user_can( 'install_plugins' ) )
+   {
+     global $current_user ;
+        $user_id = $current_user->ID;
+        /* Check that the user hasn't already clicked to ignore the message */
+     if ( ! get_user_meta($user_id, 'wpar_ignore_notice') ) {
+        echo '<div class="updated"><p>';
+        printf(__('<strong>[Notice]</strong> <strong>WP Author Report Free</strong> version will now provide reports for <strong>2 Authors</strong> for free. If you need support for more Author we have made the <a title="WP Author Report Pro" href="http://wpdeveloper.net/go/WPAR-Pro" target="_blank">Pro Packages</a> affordable for all level of user. Use Coupon "<a title="WP Author Report Coupon" href="http://wpdeveloper.net/go/WPAR-Pro" target="_blank"><strong>WPARPro</strong></a>" for 20 percent Discount, only for you! | <a href="%1$s">[Hide Offer]</a>'), '?wpar_nag_ignore=0');
+        echo "</p></div>";
+     }
+    }
+}
+
+add_action('admin_init', 'wpar_nag_ignore');
+
+function wpar_nag_ignore() {
+     global $current_user;
+        $user_id = $current_user->ID;
+        /* If user clicks to ignore the notice, add that to their user meta */
+        if ( isset($_GET['wpar_nag_ignore']) && '0' == $_GET['wpar_nag_ignore'] ) {
+             add_user_meta($user_id, 'wpar_ignore_notice', 'true', true);
+     }
+}
 ?>

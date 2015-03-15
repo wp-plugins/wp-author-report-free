@@ -25,10 +25,10 @@
 		<td>
 			
 			<form action="//WPDeveloper.us10.list-manage.com/subscribe/post?u=a427328bc9fc2657270f66f87&amp;id=97fd2b28ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<input type="text" style="width:170px;color:#666666;" name="EMAIL" id="mce-EMAIL" value="Enter your email address" onclick="javascript: if(this.value=='Enter your email address') {this.value='';}"/>
+			<input type="text" style="width:157px;color:#666666; font-size:12px;" name="EMAIL" id="mce-EMAIL" value="Enter your email address" onclick="javascript: if(this.value=='Enter your email address') {this.value='';}"/>
 			<input type="hidden" value="WPDeveloper" name="uri"/>
 			<input type="hidden" name="loc" value="en_US"/>
-			<input class="button" type="submit" name="subscribe" id="mc-embedded-subscribe" value="Subscribe"/>
+			<div style="text-align:center; margin-top:5px;"><input class="button" type="submit" name="subscribe" id="mc-embedded-subscribe" value="Subscribe"/></div>
 			</form>
 		
 		</td>
