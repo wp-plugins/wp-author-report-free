@@ -102,7 +102,7 @@ For free version you could get support from WordPress.org support section, you c
 
 == Changelog ==
 
-= 1.0.5 - 2015-03-15 =
+= 1.0.6 - 2015-03-15 =
 * Feature update: able to generate report of two authors
 
 = 1.0.5 - 2015-02-28 =
